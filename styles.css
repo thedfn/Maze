@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #game-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #landing-page {
+    text-align: center;
+  }
+  
+  #player-code-container {
+    margin-top: 20px;
+  }
+  
+  #player-code {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #maze-container {
+    text-align: center;
+  }
+  
+  #maze {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1;
+  }
+  
+  #timer {
+    margin-top: 10px;
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #game-over-container {
+    text-align: center;
+  }
+  
+  #continue-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #game-completion-container {
+    text-align: center;
+  }
+  
+  #continue-button-completion {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maze Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <div id="landing-page">
+      <h1>Welcome to the Maze Game!</h1>
+      <p>Objective: Navigate through a series of mazes and earn points by reaching the exits.</p>
+      <h2>Game Rules:</h2>
+      <ul>
+        <li>You will play through 10 mazes in total.</li>
+        <li>Each maze has a time limit of 5 minutes.</li>
+        <li>Use the arrow keys or WASD to navigate through the maze.</li>
+        <li>Each maze has two exits:</li>
+        <li>Reaching the first exit earns you 1 point.</li>
+        <li>Reaching the second exit earns you 3 points.</li>
+        <li>If you run out of time, you will earn 0 points for that maze.</li>
+      </ul>
+      <div id="player-code-container">
+        <label for="player-code">Enter your player code:</label>
+        <input type="text" id="player-code" maxlength="6" placeholder="2 letters + 4 numbers">
+        <button id="start-button">Start Game</button>
+      </div>
+    </div>
+    <div id="maze-container" style="display: none;">
+      <div id="maze"></div>
+      <div id="timer">Time remaining: <span id="time">05:00</span></div>
+      <div id="message"></div>
+    </div>
+    <div id="game-completion-container" style="display: none;">
+      <h2>Congratulations!</h2>
+      <p>You have completed all the mazes.</p>
+      <p>Total points earned: <span id="total-points-completion">0</span></p>
+      <button id="continue-button-completion">Continue</button>
+    </div>
+  </div>
+
+
+  <script src="mazes.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
